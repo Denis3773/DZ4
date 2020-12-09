@@ -63,3 +63,5 @@
 	printf("\n");
     	free(vert);
 ```
+## Структурная схема алгоритма:
+![Alt-текст](https://github.com/Denis3773/DZ4/blob/main/schema_alg.png "Структурная схема")
