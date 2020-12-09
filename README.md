@@ -68,4 +68,4 @@
 ## Результат выполнения программы:
 ![Alt-текст](https://github.com/Denis3773/DZ4/blob/main/test.jpeg "Результат")
 ## Полученный граф:
-![Alt-текст](https://github.com/Denis3773/DZ4/blob/main/test.jpeg "Результат")
+![Alt-текст](https://github.com/Denis3773/DZ4/blob/main/graph.jpeg "Граф")
