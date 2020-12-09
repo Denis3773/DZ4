@@ -3,8 +3,9 @@
 ## Алгоритм:
 - Увеличение размера массива для дополнительной строки матрицы инцидентности, заполнение новой строки соответствующими данными.
 ``` C
-	++edge
-    arr = realloc(arr, (point*edge)*sizeof(int));
+
+	++edge;
+    	arr = realloc(arr, (point*edge)*sizeof(int));
 	for(i = point*(edge - 1); i < point*edge; i++){
         if(first == i + 1 - point*(edge - 1)){
         	++check;
@@ -49,7 +50,7 @@
 - Нахождение минимальной степени вершины и вывод всей вершин с этой степенью.
 ``` C
 	check = 1000;
-    for(i = 0; i < point; i++){
+    	for(i = 0; i < point; i++){
     	if(check > vert[i]){
            	check = vert[i];
 		}
@@ -60,5 +61,5 @@
 		}
 	}
 	printf("\n");
-    free(vert);
+    	free(vert);
 ```
